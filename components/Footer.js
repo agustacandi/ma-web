@@ -18,7 +18,7 @@ function Footer() {
 				</strong>
 			</p>
 			<p className='text-center text-red-2'>
-				Copyright © 2020{' '}
+				Copyright © 2021{' '}
 				<strong>
 					<a href='https://github.com/Chawklate' className='hover:underline'>
 						Chawklate
