@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+body {
+	background-color: #2b2e4a;
+}
+
+#logo {
+	font-family: 'Press Start 2P';
+}
+
+p,
+li {
+	color: #f49292;
+}
+
+strong {
+	color: #e84545;
+}
+
+code {
+	background-color: #1d1f38;
+	border: 2px solid #e84545;
+	color: #f49292;
+	font-family: 'JetBrains Mono';
+	border-radius: 0.25rem;
+	padding: 12px 16px;
+	margin: 20px 0;
+	display: block;
+	overflow-x: scroll;
+}
