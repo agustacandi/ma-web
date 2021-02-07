@@ -17,12 +17,12 @@ export default function Home({ allPostsData }) {
 			<Navbar />
 
 			<header className='container lg:px-60 mx-auto mt-10 md:flex md:items-center md:px-20 px-3'>
-				<div className='md:1/2'>
+				<div className='md:1/2 flex md:block justify-center'>
 					<LazyLoadImage
 						effect='blur'
 						src='/assets/images/profile.jpg'
 						alt='Profile Image'
-						className='w-32 h-32 mx-auto md:w-60 md:h-60 rounded-full border-8 border-red shadow-lg hover:border-red-3'
+						className='w-32 h-32 md:w-60 md:h-60 rounded-full border-8 border-red shadow-lg hover:border-red-3'
 					/>
 				</div>
 				<div className='md:ml-auto md:w-1/2'>

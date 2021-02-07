@@ -13,7 +13,7 @@ function Navbar({ router }) {
 		{ name: 'About', href: '/about' },
 	];
 	return (
-		<nav className='md:py-5 sticky top-0 bg-dark shadow-md'>
+		<nav className='md:py-5 sticky top-0 bg-dark shadow-md z-10'>
 			<div className='container lg:px-60 md:px-20 mx-auto md:flex md:items-center'>
 				<Link href='/'>
 					<a className='md:text-xl text-red hidden md:block' id='logo'>
