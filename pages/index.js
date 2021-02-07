@@ -3,6 +3,8 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import PostCard from '../components/PostCard';
 import { getSortedPostsData } from '../lib/posts';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 export default function Home({ allPostsData }) {
 	return (
@@ -16,7 +18,8 @@ export default function Home({ allPostsData }) {
 
 			<header className='container lg:px-60 mx-auto mt-10 md:flex md:items-center md:px-20 px-3'>
 				<div className='md:1/2'>
-					<img
+					<LazyLoadImage
+						effect='blur'
 						src='/assets/images/profile.jpg'
 						alt='Profile Image'
 						className='w-32 h-32 mx-auto md:w-60 md:h-60 rounded-full border-8 border-red shadow-lg hover:border-red-3'
@@ -37,32 +40,38 @@ export default function Home({ allPostsData }) {
 						Skills
 					</p>
 					<div className='flex items-center space-x-2 justify-center md:justify-start'>
-						<img
+						<LazyLoadImage
+							effect='blur'
 							src='/assets/images/react.png'
 							alt='React Icon'
 							className='w-10 h-10 object-cover'
 						/>
-						<img
+						<LazyLoadImage
+							effect='blur'
 							src='/assets/images/nextjs.png'
 							alt='NextJS Icon'
 							className='h-8 object-contain'
 						/>
-						<img
+						<LazyLoadImage
+							effect='blur'
 							src='/assets/images/nodejs.png'
 							alt='NodeJS Icon'
 							className='w-8 h-8 object-contain'
 						/>
-						<img
+						<LazyLoadImage
+							effect='blur'
 							src='/assets/images/javascript.png'
 							alt='JavaScript Icon'
 							className='w-8 h-8 object-contain'
 						/>
-						<img
+						<LazyLoadImage
+							effect='blur'
 							src='/assets/images/python.png'
 							alt='Python Icon'
 							className='w-8 h-8 object-contain'
 						/>
-						<img
+						<LazyLoadImage
+							effect='blur'
 							src='/assets/images/figma.svg'
 							alt='Figma Icon'
 							className='w-8 h-8 object-contain'

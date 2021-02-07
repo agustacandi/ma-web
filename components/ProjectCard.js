@@ -1,8 +1,12 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 export default function ProjectCard({ title, desc, image }) {
 	return (
 		<div className='md:px-3 w-full md:w-2/4 mt-5 box-border'>
 			<a className='block w-full md:w-auto border-red border-2 rounded shadow-xl p-4 box-border'>
-				<img
+				<LazyLoadImage
+					effect='blur'
 					src={image}
 					alt={title}
 					className='md:h-60 h-44 w-full rounded object-cover'
