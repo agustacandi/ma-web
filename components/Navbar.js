@@ -28,7 +28,7 @@ function Navbar({ router }) {
 									<a
 										className={
 											router.pathname == nav.href
-												? 'hover:underline text-red font-bold'
+												? 'underline text-red font-bold'
 												: 'hover:underline text-red-2'
 										}
 									>
