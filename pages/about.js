@@ -12,7 +12,7 @@ export default function About() {
 			<main className='container lg:px-60 mx-auto md:px-20 px-3 my-10'>
 				<h1 className=' text-red lg:text-2xl text-xl font-black'>About Me</h1>
 				<div className='w-10 h-1 rounded-full w mt-3 bg-red-2'></div>
-				<p className='mt-8 '>
+		{/*<p className='mt-8 '>
 					Halo, saya Candi Agusta Islami Ano. Saya hanya pelajar biasa yang bisa
 					ditemukan dimanapun. Sekarang saya berumur 18 tahun dan duduk di kelas
 					12 SMK. Saya di SMK memilih jurusan TKJ walau passion saya sebenarnya
@@ -72,7 +72,7 @@ export default function About() {
 						di Yakusoku no Neverland &#41;.
 					</p>
 					<p className='mt-5'>Game? Saya sudah tidak nge-game lagi :)</p>
-				</details>
+				</details> */}
 				<h1 className=' text-red lg:text-2xl text-xl font-black mt-5'>
 					Let's Connect
 				</h1>
